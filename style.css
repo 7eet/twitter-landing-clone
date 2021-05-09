@@ -10,7 +10,8 @@ form {
   padding: 10px 20px;
 }
 
-h1 {
+h1,
+.loginTitle {
   font-size: 40px;
 }
 
@@ -47,7 +48,7 @@ a {
 button {
   display: block;
   width: 100%;
-  padding: 10px 0px;
+  padding: 15px 0px;
   margin: 20px 0px;
   border: 1px solid #0d6efd;
   border-radius: 20px;
@@ -100,8 +101,9 @@ li {
 @media (min-width: 720px) {
   .logo,
   .title,
-  .join {
-    padding: 10px 50px;
+  .join,
+  form {
+    padding: 5px 60px;
   }
 
   .loginForm {
@@ -111,6 +113,10 @@ li {
 
   h1 {
     font-size: 64px;
+  }
+
+  .loginTitle {
+    font-size: 40px;
   }
 
   h2 {
@@ -123,19 +129,20 @@ li {
   }
 
   button {
-    width: 40%;
+    margin-left: 5px;
+    width: 100%;
   }
 }
 
 @media (min-width: 1100px) {
   .right {
-    padding: 70px 70px;
+    padding: 70px 0px;
     order: 2;
   }
 
   .loginForm {
     margin: 0px 30%;
-    width: 40%;
+    width: 30%;
   }
 
   .grid {
@@ -174,5 +181,9 @@ li {
   .bottom {
     margin-left: 10px;
     margin-top: 10px;
+  }
+
+  .loginFormButton {
+    width: 100%;
   }
 }
