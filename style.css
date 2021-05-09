@@ -1,0 +1,178 @@
+body {
+  background-color: #f8f9fa;
+  margin: 0px;
+}
+
+.logo,
+.title,
+.join,
+form {
+  padding: 10px 20px;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+h2 {
+  font-size: 25px;
+}
+
+svg {
+  color: #0d6efd;
+  width: 50px;
+  height: 50px;
+}
+
+.emailInput,
+.passwordInput {
+  margin-bottom: 20px;
+}
+
+input {
+  background-color: #f8f9fa;
+  padding: 20px 5px;
+  border: 1px solid gray;
+  width: 100%;
+}
+
+.form-bottom {
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  display: block;
+  width: 100%;
+  padding: 10px 0px;
+  margin: 20px 0px;
+  border: 1px solid #0d6efd;
+  border-radius: 20px;
+}
+
+.signup,
+.loginFormButton {
+  background-color: #0d6efd;
+  color: #f8f9fa;
+}
+
+.login {
+  background-color: #f8f9fa;
+  color: #0d6efd;
+}
+
+.signup:hover {
+  opacity: 0.8;
+}
+
+.big-logo {
+  background-color: #0d6efd;
+  height: 50vh;
+  margin: 20px 0px;
+}
+.big-logo > svg {
+  color: #f8f9fa;
+  padding: 10px;
+  width: 90vw;
+  height: 40vh;
+}
+
+.footer {
+  color: rgb(110, 118, 125);
+  padding: 10px 20px;
+}
+
+li {
+  list-style-type: none;
+  display: inline-block;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.bottom {
+  text-align: center;
+  margin-top: 20px;
+}
+
+@media (min-width: 720px) {
+  .logo,
+  .title,
+  .join {
+    padding: 10px 50px;
+  }
+
+  .loginForm {
+    margin: 0px 25%;
+    width: 50%;
+  }
+
+  h1 {
+    font-size: 64px;
+  }
+
+  h2 {
+    font-size: 35px;
+  }
+
+  .buttons {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  button {
+    width: 40%;
+  }
+}
+
+@media (min-width: 1100px) {
+  .right {
+    padding: 70px 70px;
+    order: 2;
+  }
+
+  .loginForm {
+    margin: 0px 30%;
+    width: 40%;
+  }
+
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .big-logo {
+    background-color: #0d6efd;
+    height: 90vh;
+    width: 50vw;
+    margin: 0px;
+  }
+  .big-logo > svg {
+    color: #f8f9fa;
+    padding: 100px;
+    width: 40vw;
+    height: 40vh;
+  }
+
+  .buttons {
+    display: block;
+  }
+
+  button {
+    width: 70%;
+  }
+
+  .footer {
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+  }
+
+  li,
+  .bottom {
+    margin-left: 10px;
+    margin-top: 10px;
+  }
+}
